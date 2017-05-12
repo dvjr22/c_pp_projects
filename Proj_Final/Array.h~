@@ -1,0 +1,51 @@
+/* 
+ * File:   Array.h
+ * Author: homayoun
+ *
+ * Created on October 21, 2015, 11:51 AM
+ */
+
+#ifndef ARRAY_H
+#define	ARRAY_H
+#include <iostream>
+using namespace std;
+
+class Array {
+public:
+  Array();
+  Array(int arraySize, int value = 0);
+  Array(int anArray[], int arraySize);
+  Array(const Array &orig);
+  virtual ~Array();
+  
+  const Array & operator=(const Array & rhs);
+  const Array operator+(const Array & rhs) const;
+  const Array & operator-(const Array & rhs) const;
+  const Array & operator+=(const Array & rhs);
+  const Array & operator-=(const Array & rhs);
+  
+  const Array & operator++();
+  const Array & operator++(int dummy);
+  const Array & operator-() const;
+  
+  bool operator==(const Array & rhs) const;
+  int operator[](int index) const; // Equivalent to get
+  int & operator[](int index); // Equivalent to set
+  
+  void Print(void) const;
+  void set(int index, int value);
+  int get(int index) const;
+  int size();
+  void insert(int index, int value);
+  int remove(int index);
+  
+  friend ostream & operator<<(ostream & outStream, const Array & rhs);
+  friend istream & operator>>(istream & inStream, Array & rhs);
+  
+  
+private:
+  int Size;
+  int *Data;
+};
+
+#endif	/* ARRAY_H */
