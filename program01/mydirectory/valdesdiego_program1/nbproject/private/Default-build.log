@@ -1,0 +1,15 @@
+g++ -O3 -Wall -std=c++11 -c main.cc
+g++ -O3 -Wall -std=c++11 -c gcdtest.cc
+gcdtest.cc: In member function ‘LONG GCDTest::GcdNaive(LONG, LONG)’:
+gcdtest.cc:71:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+gcdtest.cc: In member function ‘LONG GCDTest::GcdSubtract(LONG, LONG)’:
+gcdtest.cc:77:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+g++ -O3 -Wall -std=c++11 -c myrandom.cc
+g++ -O3 -Wall -std=c++11 -c ../../Utilities/scanner.cc
+g++ -O3 -Wall -std=c++11 -c ../../Utilities/scanline.cc
+g++ -O3 -Wall -std=c++11 -c ../../Utilities/utils.cc
+g++ -O3 -Wall -std=c++11 -o Aprog main.o gcdtest.o myrandom.o scanner.o scanline.o utils.o

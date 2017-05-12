@@ -1,0 +1,4864 @@
+Main: Beginning execution
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Sat Nov  5 09:14:33 2016
+TIME beginning             0.00 u         0.00 s   Res:      802816
+TIME beginning             0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
+
+start the computation
+UTILS: open the input file 'xsierpinski16.txt'
+UTILS: open succeeded for 'xsierpinski16.txt'
+enter ReadNetwork
+leave ReadNetwork
+BEFORE SIM
+NODECOUNT:    0
+ 111 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   112  113  114
+ 112 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   111  113  114  121
+ 113 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   111  112  114  131
+ 114 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   111  112  113  141
+ 121 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   122  123  124  112
+ 122 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  123  124
+ 123 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  124  132
+ 124 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  123  142
+ 131 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   132  133  134  113
+ 132 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  133  134  123
+ 133 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  134
+ 134 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  133  143
+ 141 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   142  143  144  114
+ 142 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  143  144  124
+ 143 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  144  134
+ 144 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  143
+
+enter RunSimulation
+NODESETATTIME 111 -1 FROM 111
+node  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+got message at time 0
+BEFORE LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   111  113  114  121
+ 113 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   111  112  114  131
+ 114 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   111  112  113  141
+ 121 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   122  123  124  112
+ 122 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  123  124
+ 123 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  124  132
+ 124 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  123  142
+ 131 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   132  133  134  113
+ 132 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  133  134  123
+ 133 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  134
+ 134 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  133  143
+ 141 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   142  143  144  114
+ 142 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  143  144  124
+ 143 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  144  134
+ 144 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  143
+
+TIME 0
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   111  113  114  121
+ 113 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   111  112  114  131
+ 114 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   111  112  113  141
+ 121 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   122  123  124  112
+ 122 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  123  124
+ 123 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  124  132
+ 124 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  123  142
+ 131 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   132  133  134  113
+ 132 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  133  134  123
+ 133 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  134
+ 134 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  133  143
+ 141 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   142  143  144  114
+ 142 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  143  144  124
+ 143 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  144  134
+ 144 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+send from node  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+NODESETATTIME 112 0 FROM 111
+node  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+got message at time 0
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 112 not yet ready to send
+
+USE node 113 :  113 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   111  112  114  131
+
+node 113 not yet ready to send
+
+USE node 114 :  114 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   111  112  113  141
+
+node 114 not yet ready to send
+
+USE node 121 :  121 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   122  123  124  112
+
+node 121 not yet ready to send
+
+USE node 122 :  122 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  123  124
+
+node 122 not yet ready to send
+
+USE node 123 :  123 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  124  132
+
+node 123 not yet ready to send
+
+USE node 124 :  124 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  123  142
+
+node 124 not yet ready to send
+
+USE node 131 :  131 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   132  133  134  113
+
+node 131 not yet ready to send
+
+USE node 132 :  132 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  133  134  123
+
+node 132 not yet ready to send
+
+USE node 133 :  133 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  134
+
+node 133 not yet ready to send
+
+USE node 134 :  134 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  133  143
+
+node 134 not yet ready to send
+
+USE node 141 :  141 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   142  143  144  114
+
+node 141 not yet ready to send
+
+USE node 142 :  142 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  143  144  124
+
+node 142 not yet ready to send
+
+USE node 143 :  143 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  144  134
+
+node 143 not yet ready to send
+
+USE node 144 :  144 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  143
+
+node 144 not yet ready to send
+
+TIME 1
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   111  112  114  131
+ 114 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   111  112  113  141
+ 121 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   122  123  124  112
+ 122 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  123  124
+ 123 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  124  132
+ 124 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  123  142
+ 131 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   132  133  134  113
+ 132 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  133  134  123
+ 133 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  134
+ 134 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  133  143
+ 141 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   142  143  144  114
+ 142 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  143  144  124
+ 143 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  144  134
+ 144 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+send from node  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+NODESETATTIME 113 1 FROM 111
+node  113 TIME:    1 (FROM:  111)  LINKS:   111  112  114  131
+got message at time 1
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+send from node  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+NODESETATTIME 113 1 FROM 112
+node  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+got message at time 1
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 113 not yet ready to send
+
+USE node 114 :  114 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   111  112  113  141
+
+node 114 not yet ready to send
+
+USE node 121 :  121 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   122  123  124  112
+
+node 121 not yet ready to send
+
+USE node 122 :  122 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  123  124
+
+node 122 not yet ready to send
+
+USE node 123 :  123 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  124  132
+
+node 123 not yet ready to send
+
+USE node 124 :  124 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  123  142
+
+node 124 not yet ready to send
+
+USE node 131 :  131 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   132  133  134  113
+
+node 131 not yet ready to send
+
+USE node 132 :  132 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  133  134  123
+
+node 132 not yet ready to send
+
+USE node 133 :  133 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  134
+
+node 133 not yet ready to send
+
+USE node 134 :  134 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  133  143
+
+node 134 not yet ready to send
+
+USE node 141 :  141 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   142  143  144  114
+
+node 141 not yet ready to send
+
+USE node 142 :  142 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  143  144  124
+
+node 142 not yet ready to send
+
+USE node 143 :  143 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  144  134
+
+node 143 not yet ready to send
+
+USE node 144 :  144 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  143
+
+node 144 not yet ready to send
+
+TIME 2
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   111  112  113  141
+ 121 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   122  123  124  112
+ 122 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  123  124
+ 123 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  124  132
+ 124 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  123  142
+ 131 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   132  133  134  113
+ 132 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  133  134  123
+ 133 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  134
+ 134 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  133  143
+ 141 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   142  143  144  114
+ 142 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  143  144  124
+ 143 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  144  134
+ 144 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+send from node  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+NODESETATTIME 114 2 FROM 111
+node  114 TIME:    2 (FROM:  111)  LINKS:   111  112  113  141
+got message at time 2
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+send from node  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+NODESETATTIME 114 2 FROM 112
+node  114 TIME:    2 (FROM:  112)  LINKS:   111  112  113  141
+got message at time 2
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+send from node  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+NODESETATTIME 114 2 FROM 113
+node  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+got message at time 2
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 114 not yet ready to send
+
+USE node 121 :  121 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   122  123  124  112
+
+node 121 not yet ready to send
+
+USE node 122 :  122 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  123  124
+
+node 122 not yet ready to send
+
+USE node 123 :  123 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  124  132
+
+node 123 not yet ready to send
+
+USE node 124 :  124 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  123  142
+
+node 124 not yet ready to send
+
+USE node 131 :  131 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   132  133  134  113
+
+node 131 not yet ready to send
+
+USE node 132 :  132 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  133  134  123
+
+node 132 not yet ready to send
+
+USE node 133 :  133 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  134
+
+node 133 not yet ready to send
+
+USE node 134 :  134 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  133  143
+
+node 134 not yet ready to send
+
+USE node 141 :  141 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   142  143  144  114
+
+node 141 not yet ready to send
+
+USE node 142 :  142 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  143  144  124
+
+node 142 not yet ready to send
+
+USE node 143 :  143 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  144  134
+
+node 143 not yet ready to send
+
+USE node 144 :  144 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  143
+
+node 144 not yet ready to send
+
+TIME 3
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   122  123  124  112
+ 122 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  123  124
+ 123 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  124  132
+ 124 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  123  142
+ 131 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   132  133  134  113
+ 132 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  133  134  123
+ 133 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  134
+ 134 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  133  143
+ 141 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   142  143  144  114
+ 142 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  143  144  124
+ 143 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  144  134
+ 144 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+send from node  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+NODESETATTIME 121 3 FROM 112
+node  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+got message at time 3
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+send from node  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+NODESETATTIME 131 3 FROM 113
+node  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+got message at time 3
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+send from node  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+NODESETATTIME 141 3 FROM 114
+node  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+got message at time 3
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 121 not yet ready to send
+
+USE node 122 :  122 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  123  124
+
+node 122 not yet ready to send
+
+USE node 123 :  123 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  124  132
+
+node 123 not yet ready to send
+
+USE node 124 :  124 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  123  142
+
+node 124 not yet ready to send
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 131 not yet ready to send
+
+USE node 132 :  132 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  133  134  123
+
+node 132 not yet ready to send
+
+USE node 133 :  133 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  134
+
+node 133 not yet ready to send
+
+USE node 134 :  134 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  133  143
+
+node 134 not yet ready to send
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 141 not yet ready to send
+
+USE node 142 :  142 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  143  144  124
+
+node 142 not yet ready to send
+
+USE node 143 :  143 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  144  134
+
+node 143 not yet ready to send
+
+USE node 144 :  144 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  143
+
+node 144 not yet ready to send
+
+TIME 4
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  123  124
+ 123 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  124  132
+ 124 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  133  134  123
+ 133 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  134
+ 134 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  143  144  124
+ 143 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  144  134
+ 144 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+send from node  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+NODESETATTIME 122 4 FROM 121
+node  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+got message at time 4
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 122 not yet ready to send
+
+USE node 123 :  123 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  124  132
+
+node 123 not yet ready to send
+
+USE node 124 :  124 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  123  142
+
+node 124 not yet ready to send
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+send from node  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+NODESETATTIME 132 4 FROM 131
+node  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+got message at time 4
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 132 not yet ready to send
+
+USE node 133 :  133 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  134
+
+node 133 not yet ready to send
+
+USE node 134 :  134 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  133  143
+
+node 134 not yet ready to send
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+send from node  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+NODESETATTIME 142 4 FROM 141
+node  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+got message at time 4
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 142 not yet ready to send
+
+USE node 143 :  143 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  144  134
+
+node 143 not yet ready to send
+
+USE node 144 :  144 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  143
+
+node 144 not yet ready to send
+
+TIME 5
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  124  132
+ 124 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  134
+ 134 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  144  134
+ 144 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+send from node  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+NODESETATTIME 123 5 FROM 121
+node  123 TIME:    5 (FROM:  121)  LINKS:   121  122  124  132
+got message at time 5
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+send from node  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+NODESETATTIME 123 5 FROM 122
+node  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+got message at time 5
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 123 not yet ready to send
+
+USE node 124 :  124 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  123  142
+
+node 124 not yet ready to send
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+send from node  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+NODESETATTIME 133 5 FROM 131
+node  133 TIME:    5 (FROM:  131)  LINKS:   131  132  134
+got message at time 5
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+send from node  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+NODESETATTIME 133 5 FROM 132
+node  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+got message at time 5
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 133 not yet ready to send
+
+USE node 134 :  134 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  133  143
+
+node 134 not yet ready to send
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+send from node  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+NODESETATTIME 143 5 FROM 141
+node  143 TIME:    5 (FROM:  141)  LINKS:   141  142  144  134
+got message at time 5
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+send from node  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+NODESETATTIME 143 5 FROM 142
+node  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+got message at time 5
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 143 not yet ready to send
+
+USE node 144 :  144 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  143
+
+node 144 not yet ready to send
+
+TIME 6
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+send from node  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+NODESETATTIME 124 6 FROM 121
+node  124 TIME:    6 (FROM:  121)  LINKS:   121  122  123  142
+got message at time 6
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+send from node  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+NODESETATTIME 124 6 FROM 122
+node  124 TIME:    6 (FROM:  122)  LINKS:   121  122  123  142
+got message at time 6
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+send from node  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+NODESETATTIME 124 6 FROM 123
+node  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+got message at time 6
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 124 not yet ready to send
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+send from node  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+NODESETATTIME 134 6 FROM 131
+node  134 TIME:    6 (FROM:  131)  LINKS:   131  132  133  143
+got message at time 6
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+send from node  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+NODESETATTIME 134 6 FROM 132
+node  134 TIME:    6 (FROM:  132)  LINKS:   131  132  133  143
+got message at time 6
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+send from node  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+NODESETATTIME 134 6 FROM 133
+node  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+got message at time 6
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 134 not yet ready to send
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+send from node  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+NODESETATTIME 144 6 FROM 141
+node  144 TIME:    6 (FROM:  141)  LINKS:   141  142  143
+got message at time 6
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+send from node  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+NODESETATTIME 144 6 FROM 142
+node  144 TIME:    6 (FROM:  142)  LINKS:   141  142  143
+got message at time 6
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+send from node  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+NODESETATTIME 144 6 FROM 143
+node  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+got message at time 6
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 144 not yet ready to send
+
+TIME 7
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+node 124 already received
+
+node 112 already received
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+node 124 already received
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+node 124 already received
+
+node 132 already received
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 121 already received
+
+node 122 already received
+
+node 123 already received
+
+node 142 already received
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+node 134 already received
+
+node 113 already received
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+node 134 already received
+
+node 123 already received
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+node 134 already received
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 131 already received
+
+node 132 already received
+
+node 133 already received
+
+node 143 already received
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+node 144 already received
+
+node 114 already received
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+node 144 already received
+
+node 124 already received
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+node 144 already received
+
+node 134 already received
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 141 already received
+
+node 142 already received
+
+node 143 already received
+
+TIME 8
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+node 124 already received
+
+node 112 already received
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+node 124 already received
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+node 124 already received
+
+node 132 already received
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 121 already received
+
+node 122 already received
+
+node 123 already received
+
+node 142 already received
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+node 134 already received
+
+node 113 already received
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+node 134 already received
+
+node 123 already received
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+node 134 already received
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 131 already received
+
+node 132 already received
+
+node 133 already received
+
+node 143 already received
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+node 144 already received
+
+node 114 already received
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+node 144 already received
+
+node 124 already received
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+node 144 already received
+
+node 134 already received
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 141 already received
+
+node 142 already received
+
+node 143 already received
+
+TIME 9
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+node 124 already received
+
+node 112 already received
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+node 124 already received
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+node 124 already received
+
+node 132 already received
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 121 already received
+
+node 122 already received
+
+node 123 already received
+
+node 142 already received
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+node 134 already received
+
+node 113 already received
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+node 134 already received
+
+node 123 already received
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+node 134 already received
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 131 already received
+
+node 132 already received
+
+node 133 already received
+
+node 143 already received
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+node 144 already received
+
+node 114 already received
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+node 144 already received
+
+node 124 already received
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+node 144 already received
+
+node 134 already received
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 141 already received
+
+node 142 already received
+
+node 143 already received
+
+TIME 10
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+node 124 already received
+
+node 112 already received
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+node 124 already received
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+node 124 already received
+
+node 132 already received
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 121 already received
+
+node 122 already received
+
+node 123 already received
+
+node 142 already received
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+node 134 already received
+
+node 113 already received
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+node 134 already received
+
+node 123 already received
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+node 134 already received
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 131 already received
+
+node 132 already received
+
+node 133 already received
+
+node 143 already received
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+node 144 already received
+
+node 114 already received
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+node 144 already received
+
+node 124 already received
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+node 144 already received
+
+node 134 already received
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 141 already received
+
+node 142 already received
+
+node 143 already received
+
+TIME 11
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+node 124 already received
+
+node 112 already received
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+node 124 already received
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+node 124 already received
+
+node 132 already received
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 121 already received
+
+node 122 already received
+
+node 123 already received
+
+node 142 already received
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+node 134 already received
+
+node 113 already received
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+node 134 already received
+
+node 123 already received
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+node 134 already received
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 131 already received
+
+node 132 already received
+
+node 133 already received
+
+node 143 already received
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+node 144 already received
+
+node 114 already received
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+node 144 already received
+
+node 124 already received
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+node 144 already received
+
+node 134 already received
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 141 already received
+
+node 142 already received
+
+node 143 already received
+
+TIME 12
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+node 124 already received
+
+node 112 already received
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+node 124 already received
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+node 124 already received
+
+node 132 already received
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 121 already received
+
+node 122 already received
+
+node 123 already received
+
+node 142 already received
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+node 134 already received
+
+node 113 already received
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+node 134 already received
+
+node 123 already received
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+node 134 already received
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 131 already received
+
+node 132 already received
+
+node 133 already received
+
+node 143 already received
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+node 144 already received
+
+node 114 already received
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+node 144 already received
+
+node 124 already received
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+node 144 already received
+
+node 134 already received
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 141 already received
+
+node 142 already received
+
+node 143 already received
+
+TIME 13
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+node 124 already received
+
+node 112 already received
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+node 124 already received
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+node 124 already received
+
+node 132 already received
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 121 already received
+
+node 122 already received
+
+node 123 already received
+
+node 142 already received
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+node 134 already received
+
+node 113 already received
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+node 134 already received
+
+node 123 already received
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+node 134 already received
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 131 already received
+
+node 132 already received
+
+node 133 already received
+
+node 143 already received
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+node 144 already received
+
+node 114 already received
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+node 144 already received
+
+node 124 already received
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+node 144 already received
+
+node 134 already received
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 141 already received
+
+node 142 already received
+
+node 143 already received
+
+TIME 14
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+node 124 already received
+
+node 112 already received
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+node 124 already received
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+node 124 already received
+
+node 132 already received
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 121 already received
+
+node 122 already received
+
+node 123 already received
+
+node 142 already received
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+node 134 already received
+
+node 113 already received
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+node 134 already received
+
+node 123 already received
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+node 134 already received
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 131 already received
+
+node 132 already received
+
+node 133 already received
+
+node 143 already received
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+node 144 already received
+
+node 114 already received
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+node 144 already received
+
+node 124 already received
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+node 144 already received
+
+node 134 already received
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 141 already received
+
+node 142 already received
+
+node 143 already received
+
+TIME 15
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+node 124 already received
+
+node 112 already received
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+node 124 already received
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+node 124 already received
+
+node 132 already received
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 121 already received
+
+node 122 already received
+
+node 123 already received
+
+node 142 already received
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+node 134 already received
+
+node 113 already received
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+node 134 already received
+
+node 123 already received
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+node 134 already received
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 131 already received
+
+node 132 already received
+
+node 133 already received
+
+node 143 already received
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+node 144 already received
+
+node 114 already received
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+node 144 already received
+
+node 124 already received
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+node 144 already received
+
+node 134 already received
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 141 already received
+
+node 142 already received
+
+node 143 already received
+
+TIME 16
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+node 124 already received
+
+node 112 already received
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+node 124 already received
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+node 124 already received
+
+node 132 already received
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 121 already received
+
+node 122 already received
+
+node 123 already received
+
+node 142 already received
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+node 134 already received
+
+node 113 already received
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+node 134 already received
+
+node 123 already received
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+node 134 already received
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 131 already received
+
+node 132 already received
+
+node 133 already received
+
+node 143 already received
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+node 144 already received
+
+node 114 already received
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+node 144 already received
+
+node 124 already received
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+node 144 already received
+
+node 134 already received
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 141 already received
+
+node 142 already received
+
+node 143 already received
+
+TIME 17
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+node 124 already received
+
+node 112 already received
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+node 124 already received
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+node 124 already received
+
+node 132 already received
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 121 already received
+
+node 122 already received
+
+node 123 already received
+
+node 142 already received
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+node 134 already received
+
+node 113 already received
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+node 134 already received
+
+node 123 already received
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+node 134 already received
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 131 already received
+
+node 132 already received
+
+node 133 already received
+
+node 143 already received
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+node 144 already received
+
+node 114 already received
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+node 144 already received
+
+node 124 already received
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+node 144 already received
+
+node 134 already received
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 141 already received
+
+node 142 already received
+
+node 143 already received
+
+TIME 18
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+node 124 already received
+
+node 112 already received
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+node 124 already received
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+node 124 already received
+
+node 132 already received
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 121 already received
+
+node 122 already received
+
+node 123 already received
+
+node 142 already received
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+node 134 already received
+
+node 113 already received
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+node 134 already received
+
+node 123 already received
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+node 134 already received
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 131 already received
+
+node 132 already received
+
+node 133 already received
+
+node 143 already received
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+node 144 already received
+
+node 114 already received
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+node 144 already received
+
+node 124 already received
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+node 144 already received
+
+node 134 already received
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 141 already received
+
+node 142 already received
+
+node 143 already received
+
+TIME 19
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+node 124 already received
+
+node 112 already received
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+node 124 already received
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+node 124 already received
+
+node 132 already received
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 121 already received
+
+node 122 already received
+
+node 123 already received
+
+node 142 already received
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+node 134 already received
+
+node 113 already received
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+node 134 already received
+
+node 123 already received
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+node 134 already received
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 131 already received
+
+node 132 already received
+
+node 133 already received
+
+node 143 already received
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+node 144 already received
+
+node 114 already received
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+node 144 already received
+
+node 124 already received
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+node 144 already received
+
+node 134 already received
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 141 already received
+
+node 142 already received
+
+node 143 already received
+
+TIME 20
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+node 124 already received
+
+node 112 already received
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+node 124 already received
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+node 124 already received
+
+node 132 already received
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 121 already received
+
+node 122 already received
+
+node 123 already received
+
+node 142 already received
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+node 134 already received
+
+node 113 already received
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+node 134 already received
+
+node 123 already received
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+node 134 already received
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 131 already received
+
+node 132 already received
+
+node 133 already received
+
+node 143 already received
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+node 144 already received
+
+node 114 already received
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+node 144 already received
+
+node 124 already received
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+node 144 already received
+
+node 134 already received
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 141 already received
+
+node 142 already received
+
+node 143 already received
+
+TIME 21
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+node 124 already received
+
+node 112 already received
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+node 124 already received
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+node 124 already received
+
+node 132 already received
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 121 already received
+
+node 122 already received
+
+node 123 already received
+
+node 142 already received
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+node 134 already received
+
+node 113 already received
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+node 134 already received
+
+node 123 already received
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+node 134 already received
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 131 already received
+
+node 132 already received
+
+node 133 already received
+
+node 143 already received
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+node 144 already received
+
+node 114 already received
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+node 144 already received
+
+node 124 already received
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+node 144 already received
+
+node 134 already received
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 141 already received
+
+node 142 already received
+
+node 143 already received
+
+TIME 22
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+node 124 already received
+
+node 112 already received
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+node 124 already received
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+node 124 already received
+
+node 132 already received
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 121 already received
+
+node 122 already received
+
+node 123 already received
+
+node 142 already received
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+node 134 already received
+
+node 113 already received
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+node 134 already received
+
+node 123 already received
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+node 134 already received
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 131 already received
+
+node 132 already received
+
+node 133 already received
+
+node 143 already received
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+node 144 already received
+
+node 114 already received
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+node 144 already received
+
+node 124 already received
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+node 144 already received
+
+node 134 already received
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 141 already received
+
+node 142 already received
+
+node 143 already received
+
+TIME 23
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+node 124 already received
+
+node 112 already received
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+node 124 already received
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+node 124 already received
+
+node 132 already received
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 121 already received
+
+node 122 already received
+
+node 123 already received
+
+node 142 already received
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+node 134 already received
+
+node 113 already received
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+node 134 already received
+
+node 123 already received
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+node 134 already received
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 131 already received
+
+node 132 already received
+
+node 133 already received
+
+node 143 already received
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+node 144 already received
+
+node 114 already received
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+node 144 already received
+
+node 124 already received
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+node 144 already received
+
+node 134 already received
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 141 already received
+
+node 142 already received
+
+node 143 already received
+
+TIME 24
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+node 124 already received
+
+node 112 already received
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+node 124 already received
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+node 124 already received
+
+node 132 already received
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 121 already received
+
+node 122 already received
+
+node 123 already received
+
+node 142 already received
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+node 134 already received
+
+node 113 already received
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+node 134 already received
+
+node 123 already received
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+node 134 already received
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 131 already received
+
+node 132 already received
+
+node 133 already received
+
+node 143 already received
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+node 144 already received
+
+node 114 already received
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+node 144 already received
+
+node 124 already received
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+node 144 already received
+
+node 134 already received
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 141 already received
+
+node 142 already received
+
+node 143 already received
+
+TIME 25
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+node 124 already received
+
+node 112 already received
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+node 124 already received
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+node 124 already received
+
+node 132 already received
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 121 already received
+
+node 122 already received
+
+node 123 already received
+
+node 142 already received
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+node 134 already received
+
+node 113 already received
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+node 134 already received
+
+node 123 already received
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+node 134 already received
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 131 already received
+
+node 132 already received
+
+node 133 already received
+
+node 143 already received
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+node 144 already received
+
+node 114 already received
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+node 144 already received
+
+node 124 already received
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+node 144 already received
+
+node 134 already received
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 141 already received
+
+node 142 already received
+
+node 143 already received
+
+TIME 26
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+node 124 already received
+
+node 112 already received
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+node 124 already received
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+node 124 already received
+
+node 132 already received
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 121 already received
+
+node 122 already received
+
+node 123 already received
+
+node 142 already received
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+node 134 already received
+
+node 113 already received
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+node 134 already received
+
+node 123 already received
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+node 134 already received
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 131 already received
+
+node 132 already received
+
+node 133 already received
+
+node 143 already received
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+node 144 already received
+
+node 114 already received
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+node 144 already received
+
+node 124 already received
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+node 144 already received
+
+node 134 already received
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 141 already received
+
+node 142 already received
+
+node 143 already received
+
+TIME 27
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+node 124 already received
+
+node 112 already received
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+node 124 already received
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+node 124 already received
+
+node 132 already received
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 121 already received
+
+node 122 already received
+
+node 123 already received
+
+node 142 already received
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+node 134 already received
+
+node 113 already received
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+node 134 already received
+
+node 123 already received
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+node 134 already received
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 131 already received
+
+node 132 already received
+
+node 133 already received
+
+node 143 already received
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+node 144 already received
+
+node 114 already received
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+node 144 already received
+
+node 124 already received
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+node 144 already received
+
+node 134 already received
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 141 already received
+
+node 142 already received
+
+node 143 already received
+
+TIME 28
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+node 124 already received
+
+node 112 already received
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+node 124 already received
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+node 124 already received
+
+node 132 already received
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 121 already received
+
+node 122 already received
+
+node 123 already received
+
+node 142 already received
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+node 134 already received
+
+node 113 already received
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+node 134 already received
+
+node 123 already received
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+node 134 already received
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 131 already received
+
+node 132 already received
+
+node 133 already received
+
+node 143 already received
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+node 144 already received
+
+node 114 already received
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+node 144 already received
+
+node 124 already received
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+node 144 already received
+
+node 134 already received
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 141 already received
+
+node 142 already received
+
+node 143 already received
+
+TIME 29
+IN LOOP
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+USE node 111 :  111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+
+node 112 already received
+
+node 113 already received
+
+node 114 already received
+
+USE node 112 :  112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+
+node 111 already received
+
+node 113 already received
+
+node 114 already received
+
+node 121 already received
+
+USE node 113 :  113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+
+node 111 already received
+
+node 112 already received
+
+node 114 already received
+
+node 131 already received
+
+USE node 114 :  114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+
+node 111 already received
+
+node 112 already received
+
+node 113 already received
+
+node 141 already received
+
+USE node 121 :  121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+
+node 122 already received
+
+node 123 already received
+
+node 124 already received
+
+node 112 already received
+
+USE node 122 :  122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+
+node 121 already received
+
+node 123 already received
+
+node 124 already received
+
+USE node 123 :  123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+
+node 121 already received
+
+node 122 already received
+
+node 124 already received
+
+node 132 already received
+
+USE node 124 :  124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+
+node 121 already received
+
+node 122 already received
+
+node 123 already received
+
+node 142 already received
+
+USE node 131 :  131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+
+node 132 already received
+
+node 133 already received
+
+node 134 already received
+
+node 113 already received
+
+USE node 132 :  132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+
+node 131 already received
+
+node 133 already received
+
+node 134 already received
+
+node 123 already received
+
+USE node 133 :  133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+
+node 131 already received
+
+node 132 already received
+
+node 134 already received
+
+USE node 134 :  134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+
+node 131 already received
+
+node 132 already received
+
+node 133 already received
+
+node 143 already received
+
+USE node 141 :  141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+
+node 142 already received
+
+node 143 already received
+
+node 144 already received
+
+node 114 already received
+
+USE node 142 :  142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+
+node 141 already received
+
+node 143 already received
+
+node 144 already received
+
+node 124 already received
+
+USE node 143 :  143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+
+node 141 already received
+
+node 142 already received
+
+node 144 already received
+
+node 134 already received
+
+USE node 144 :  144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+node 141 already received
+
+node 142 already received
+
+node 143 already received
+
+leave RunSimulation
+AFTER SIM 
+NODECOUNT:    0
+ 111 TIME:   -1 (FROM:  111)  LINKS:   112  113  114
+ 112 TIME:    0 (FROM:  111)  LINKS:   111  113  114  121
+ 113 TIME:    1 (FROM:  112)  LINKS:   111  112  114  131
+ 114 TIME:    2 (FROM:  113)  LINKS:   111  112  113  141
+ 121 TIME:    3 (FROM:  112)  LINKS:   122  123  124  112
+ 122 TIME:    4 (FROM:  121)  LINKS:   121  123  124
+ 123 TIME:    5 (FROM:  122)  LINKS:   121  122  124  132
+ 124 TIME:    6 (FROM:  123)  LINKS:   121  122  123  142
+ 131 TIME:    3 (FROM:  113)  LINKS:   132  133  134  113
+ 132 TIME:    4 (FROM:  131)  LINKS:   131  133  134  123
+ 133 TIME:    5 (FROM:  132)  LINKS:   131  132  134
+ 134 TIME:    6 (FROM:  133)  LINKS:   131  132  133  143
+ 141 TIME:    3 (FROM:  114)  LINKS:   142  143  144  114
+ 142 TIME:    4 (FROM:  141)  LINKS:   141  143  144  124
+ 143 TIME:    5 (FROM:  142)  LINKS:   141  142  144  134
+ 144 TIME:    6 (FROM:  143)  LINKS:   141  142  143
+
+Main: Ending execution
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Sat Nov  5 09:14:33 2016
+TIME ending                0.01 u         0.01 s   Res:      872448
+TIME ending                0.01 u_t       0.01 s_t
+TIME***********************************************************************
+
+
+

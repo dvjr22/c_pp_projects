@@ -1,0 +1,5212 @@
+Main: Beginning execution
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Sat Nov  5 09:15:02 2016
+TIME beginning             0.00 u         0.00 s   Res:      794624
+TIME beginning             0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
+
+start the computation
+UTILS: open the input file 'xrandom1.txt'
+UTILS: open succeeded for 'xrandom1.txt'
+enter ReadNetwork
+leave ReadNetwork
+BEFORE SIM
+NODECOUNT:    0
+   0 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     5   16
+   1 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    2
+  10 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    11    3   14   15
+  11 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15   14   16
+  12 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1    7   11    8
+  13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1   18
+  14 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    1
+  15 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    18    2
+  16 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    18    3
+  17 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     0   12    2
+  18 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    10   17   11   14   19
+  19 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     3   19
+   2 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    12    8    2
+   3 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    17
+   4 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     0    3   19
+   5 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     4   19    3
+   6 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     2    0   10   16   15
+   7 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    8    9
+   8 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     6    3    2
+   9 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    6   19   17    0   13
+
+enter RunSimulation
+NODESETATTIME 0 -1 FROM 0
+node    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+got message at time 0
+BEFORE LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    2
+  10 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    11    3   14   15
+  11 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15   14   16
+  12 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1    7   11    8
+  13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1   18
+  14 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    1
+  15 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    18    2
+  16 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    18    3
+  17 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     0   12    2
+  18 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    10   17   11   14   19
+  19 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     3   19
+   2 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    12    8    2
+   3 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    17
+   4 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     0    3   19
+   5 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     4   19    3
+   6 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     2    0   10   16   15
+   7 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    8    9
+   8 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     6    3    2
+   9 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    6   19   17    0   13
+
+TIME 0
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    2
+  10 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    11    3   14   15
+  11 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15   14   16
+  12 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1    7   11    8
+  13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1   18
+  14 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    1
+  15 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    18    2
+  16 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    18    3
+  17 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     0   12    2
+  18 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    10   17   11   14   19
+  19 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     3   19
+   2 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    12    8    2
+   3 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    17
+   4 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     0    3   19
+   5 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     4   19    3
+   6 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     2    0   10   16   15
+   7 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    8    9
+   8 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     6    3    2
+   9 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+send from node    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+NODESETATTIME 5 0 FROM 0
+node    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+got message at time 0
+
+USE node 1 :    1 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    2
+
+node 1 not yet ready to send
+
+USE node 10 :   10 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    11    3   14   15
+
+node 10 not yet ready to send
+
+USE node 11 :   11 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15   14   16
+
+node 11 not yet ready to send
+
+USE node 12 :   12 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1    7   11    8
+
+node 12 not yet ready to send
+
+USE node 13 :   13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1   18
+
+node 13 not yet ready to send
+
+USE node 14 :   14 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    1
+
+node 14 not yet ready to send
+
+USE node 15 :   15 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    18    2
+
+node 15 not yet ready to send
+
+USE node 16 :   16 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    18    3
+
+node 16 not yet ready to send
+
+USE node 17 :   17 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     0   12    2
+
+node 17 not yet ready to send
+
+USE node 18 :   18 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    10   17   11   14   19
+
+node 18 not yet ready to send
+
+USE node 19 :   19 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     3   19
+
+node 19 not yet ready to send
+
+USE node 2 :    2 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    12    8    2
+
+node 2 not yet ready to send
+
+USE node 3 :    3 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    17
+
+node 3 not yet ready to send
+
+USE node 4 :    4 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     0    3   19
+
+node 4 not yet ready to send
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 5 not yet ready to send
+
+USE node 6 :    6 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     2    0   10   16   15
+
+node 6 not yet ready to send
+
+USE node 7 :    7 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    8    9
+
+node 7 not yet ready to send
+
+USE node 8 :    8 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     6    3    2
+
+node 8 not yet ready to send
+
+USE node 9 :    9 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    6   19   17    0   13
+
+node 9 not yet ready to send
+
+TIME 1
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    2
+  10 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    11    3   14   15
+  11 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15   14   16
+  12 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1    7   11    8
+  13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1   18
+  14 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    1
+  15 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    18    2
+  16 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    18    3
+  17 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     0   12    2
+  18 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    10   17   11   14   19
+  19 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     3   19
+   2 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    12    8    2
+   3 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    17
+   4 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     2    0   10   16   15
+   7 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    8    9
+   8 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     6    3    2
+   9 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+send from node    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+NODESETATTIME 16 1 FROM 0
+node   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+got message at time 1
+
+USE node 1 :    1 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    2
+
+node 1 not yet ready to send
+
+USE node 10 :   10 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    11    3   14   15
+
+node 10 not yet ready to send
+
+USE node 11 :   11 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15   14   16
+
+node 11 not yet ready to send
+
+USE node 12 :   12 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1    7   11    8
+
+node 12 not yet ready to send
+
+USE node 13 :   13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1   18
+
+node 13 not yet ready to send
+
+USE node 14 :   14 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    1
+
+node 14 not yet ready to send
+
+USE node 15 :   15 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    18    2
+
+node 15 not yet ready to send
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 16 not yet ready to send
+
+USE node 17 :   17 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     0   12    2
+
+node 17 not yet ready to send
+
+USE node 18 :   18 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    10   17   11   14   19
+
+node 18 not yet ready to send
+
+USE node 19 :   19 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     3   19
+
+node 19 not yet ready to send
+
+USE node 2 :    2 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    12    8    2
+
+node 2 not yet ready to send
+
+USE node 3 :    3 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    17
+
+node 3 not yet ready to send
+
+USE node 4 :    4 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     0    3   19
+
+node 4 not yet ready to send
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+send from node    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+NODESETATTIME 4 1 FROM 5
+node    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+got message at time 1
+
+USE node 6 :    6 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     2    0   10   16   15
+
+node 6 not yet ready to send
+
+USE node 7 :    7 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    8    9
+
+node 7 not yet ready to send
+
+USE node 8 :    8 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     6    3    2
+
+node 8 not yet ready to send
+
+USE node 9 :    9 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    6   19   17    0   13
+
+node 9 not yet ready to send
+
+TIME 2
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    2
+  10 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    11    3   14   15
+  11 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15   14   16
+  12 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1    7   11    8
+  13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1   18
+  14 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    1
+  15 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     0   12    2
+  18 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    10   17   11   14   19
+  19 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     3   19
+   2 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    12    8    2
+   3 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     2    0   10   16   15
+   7 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    8    9
+   8 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     6    3    2
+   9 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    2
+
+node 1 not yet ready to send
+
+USE node 10 :   10 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    11    3   14   15
+
+node 10 not yet ready to send
+
+USE node 11 :   11 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15   14   16
+
+node 11 not yet ready to send
+
+USE node 12 :   12 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1    7   11    8
+
+node 12 not yet ready to send
+
+USE node 13 :   13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1   18
+
+node 13 not yet ready to send
+
+USE node 14 :   14 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    1
+
+node 14 not yet ready to send
+
+USE node 15 :   15 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    18    2
+
+node 15 not yet ready to send
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+send from node   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+NODESETATTIME 18 2 FROM 16
+node   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+got message at time 2
+
+USE node 17 :   17 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     0   12    2
+
+node 17 not yet ready to send
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 18 not yet ready to send
+
+USE node 19 :   19 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     3   19
+
+node 19 not yet ready to send
+
+USE node 2 :    2 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    12    8    2
+
+node 2 not yet ready to send
+
+USE node 3 :    3 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    17
+
+node 3 not yet ready to send
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+send from node    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+NODESETATTIME 3 2 FROM 4
+node    3 TIME:    2 (FROM:    4)  LINKS:    17
+got message at time 2
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+send from node    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+NODESETATTIME 19 2 FROM 5
+node   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+got message at time 2
+
+USE node 6 :    6 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     2    0   10   16   15
+
+node 6 not yet ready to send
+
+USE node 7 :    7 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    8    9
+
+node 7 not yet ready to send
+
+USE node 8 :    8 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     6    3    2
+
+node 8 not yet ready to send
+
+USE node 9 :    9 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    6   19   17    0   13
+
+node 9 not yet ready to send
+
+TIME 3
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    2
+  10 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    11    3   14   15
+  11 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15   14   16
+  12 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1    7   11    8
+  13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1   18
+  14 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    1
+  15 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     2    0   10   16   15
+   7 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    8    9
+   8 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     6    3    2
+   9 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    2
+
+node 1 not yet ready to send
+
+USE node 10 :   10 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    11    3   14   15
+
+node 10 not yet ready to send
+
+USE node 11 :   11 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15   14   16
+
+node 11 not yet ready to send
+
+USE node 12 :   12 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1    7   11    8
+
+node 12 not yet ready to send
+
+USE node 13 :   13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1   18
+
+node 13 not yet ready to send
+
+USE node 14 :   14 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    1
+
+node 14 not yet ready to send
+
+USE node 15 :   15 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    18    2
+
+node 15 not yet ready to send
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     0   12    2
+
+node 17 not yet ready to send
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+send from node   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+NODESETATTIME 10 3 FROM 18
+node   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+got message at time 3
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    12    8    2
+
+node 2 not yet ready to send
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+send from node    3 TIME:    2 (FROM:    4)  LINKS:    17
+NODESETATTIME 17 3 FROM 3
+node   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+got message at time 3
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     2    0   10   16   15
+
+node 6 not yet ready to send
+
+USE node 7 :    7 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    8    9
+
+node 7 not yet ready to send
+
+USE node 8 :    8 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     6    3    2
+
+node 8 not yet ready to send
+
+USE node 9 :    9 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    6   19   17    0   13
+
+node 9 not yet ready to send
+
+TIME 4
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15   14   16
+  12 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1    7   11    8
+  13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1   18
+  14 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    1
+  15 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     2    0   10   16   15
+   7 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    8    9
+   8 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     6    3    2
+   9 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    2
+
+node 1 not yet ready to send
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+send from node   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+NODESETATTIME 11 4 FROM 10
+node   11 TIME:    4 (FROM:   10)  LINKS:    15   14   16
+got message at time 4
+
+USE node 11 :   11 TIME:    4 (FROM:   10)  LINKS:    15   14   16
+
+node 11 not yet ready to send
+
+USE node 12 :   12 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1    7   11    8
+
+node 12 not yet ready to send
+
+USE node 13 :   13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1   18
+
+node 13 not yet ready to send
+
+USE node 14 :   14 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    1
+
+node 14 not yet ready to send
+
+USE node 15 :   15 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    18    2
+
+node 15 not yet ready to send
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+send from node   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+NODESETATTIME 12 4 FROM 17
+node   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+got message at time 4
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+send from node   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+NODESETATTIME 11 4 FROM 18
+node   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+got message at time 4
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    12    8    2
+
+node 2 not yet ready to send
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     2    0   10   16   15
+
+node 6 not yet ready to send
+
+USE node 7 :    7 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    8    9
+
+node 7 not yet ready to send
+
+USE node 8 :    8 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     6    3    2
+
+node 8 not yet ready to send
+
+USE node 9 :    9 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    6   19   17    0   13
+
+node 9 not yet ready to send
+
+TIME 5
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1   18
+  14 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    1
+  15 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     2    0   10   16   15
+   7 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    8    9
+   8 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     6    3    2
+   9 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    2
+
+node 1 not yet ready to send
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+send from node   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+NODESETATTIME 14 5 FROM 10
+node   14 TIME:    5 (FROM:   10)  LINKS:    15    1
+got message at time 5
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+send from node   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+NODESETATTIME 15 5 FROM 11
+node   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+got message at time 5
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+send from node   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+NODESETATTIME 1 5 FROM 12
+node    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+got message at time 5
+
+USE node 13 :   13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1   18
+
+node 13 not yet ready to send
+
+USE node 14 :   14 TIME:    5 (FROM:   10)  LINKS:    15    1
+
+node 14 not yet ready to send
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 15 not yet ready to send
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+send from node   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+NODESETATTIME 2 5 FROM 17
+node    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+got message at time 5
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+send from node   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+NODESETATTIME 14 5 FROM 18
+node   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+got message at time 5
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 2 not yet ready to send
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     2    0   10   16   15
+
+node 6 not yet ready to send
+
+USE node 7 :    7 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    8    9
+
+node 7 not yet ready to send
+
+USE node 8 :    8 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     6    3    2
+
+node 8 not yet ready to send
+
+USE node 9 :    9 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    6   19   17    0   13
+
+node 9 not yet ready to send
+
+TIME 6
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     2    0   10   16   15
+   7 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    15    8    9
+   8 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     6    3    2
+   9 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+send from node   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+NODESETATTIME 7 6 FROM 12
+node    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+got message at time 6
+
+USE node 13 :   13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1   18
+
+node 13 not yet ready to send
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+send from node    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+NODESETATTIME 8 6 FROM 2
+node    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+got message at time 6
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     2    0   10   16   15
+
+node 6 not yet ready to send
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 7 not yet ready to send
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+node 8 not yet ready to send
+
+USE node 9 :    9 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    6   19   17    0   13
+
+node 9 not yet ready to send
+
+TIME 7
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+node 7 already received
+
+node 11 already received
+
+node 8 already received
+
+USE node 13 :   13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1   18
+
+node 13 not yet ready to send
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+node 8 already received
+
+node 2 already received
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     2    0   10   16   15
+
+node 6 not yet ready to send
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 15 already received
+
+node 8 already received
+
+send from node    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+NODESETATTIME 9 7 FROM 7
+node    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+got message at time 7
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+send from node    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+NODESETATTIME 6 7 FROM 8
+node    6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+got message at time 7
+
+USE node 9 :    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+node 9 not yet ready to send
+
+TIME 8
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+node 7 already received
+
+node 11 already received
+
+node 8 already received
+
+USE node 13 :   13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:     1   18
+
+node 13 not yet ready to send
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+node 8 already received
+
+node 2 already received
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+
+node 2 already received
+
+node 0 already received
+
+node 10 already received
+
+node 16 already received
+
+node 15 already received
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 15 already received
+
+node 8 already received
+
+node 9 already received
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+node 6 already received
+
+node 3 already received
+
+node 2 already received
+
+USE node 9 :    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+node 16 already received
+
+node 6 already received
+
+node 19 already received
+
+node 17 already received
+
+node 0 already received
+
+send from node    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+NODESETATTIME 13 8 FROM 9
+node   13 TIME:    8 (FROM:    9)  LINKS:     1   18
+got message at time 8
+
+TIME 9
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME:    8 (FROM:    9)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+node 7 already received
+
+node 11 already received
+
+node 8 already received
+
+USE node 13 :   13 TIME:    8 (FROM:    9)  LINKS:     1   18
+
+node 1 already received
+
+node 18 already received
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+node 8 already received
+
+node 2 already received
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+
+node 2 already received
+
+node 0 already received
+
+node 10 already received
+
+node 16 already received
+
+node 15 already received
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 15 already received
+
+node 8 already received
+
+node 9 already received
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+node 6 already received
+
+node 3 already received
+
+node 2 already received
+
+USE node 9 :    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+node 16 already received
+
+node 6 already received
+
+node 19 already received
+
+node 17 already received
+
+node 0 already received
+
+node 13 already received
+
+TIME 10
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME:    8 (FROM:    9)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+node 7 already received
+
+node 11 already received
+
+node 8 already received
+
+USE node 13 :   13 TIME:    8 (FROM:    9)  LINKS:     1   18
+
+node 1 already received
+
+node 18 already received
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+node 8 already received
+
+node 2 already received
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+
+node 2 already received
+
+node 0 already received
+
+node 10 already received
+
+node 16 already received
+
+node 15 already received
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 15 already received
+
+node 8 already received
+
+node 9 already received
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+node 6 already received
+
+node 3 already received
+
+node 2 already received
+
+USE node 9 :    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+node 16 already received
+
+node 6 already received
+
+node 19 already received
+
+node 17 already received
+
+node 0 already received
+
+node 13 already received
+
+TIME 11
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME:    8 (FROM:    9)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+node 7 already received
+
+node 11 already received
+
+node 8 already received
+
+USE node 13 :   13 TIME:    8 (FROM:    9)  LINKS:     1   18
+
+node 1 already received
+
+node 18 already received
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+node 8 already received
+
+node 2 already received
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+
+node 2 already received
+
+node 0 already received
+
+node 10 already received
+
+node 16 already received
+
+node 15 already received
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 15 already received
+
+node 8 already received
+
+node 9 already received
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+node 6 already received
+
+node 3 already received
+
+node 2 already received
+
+USE node 9 :    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+node 16 already received
+
+node 6 already received
+
+node 19 already received
+
+node 17 already received
+
+node 0 already received
+
+node 13 already received
+
+TIME 12
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME:    8 (FROM:    9)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+node 7 already received
+
+node 11 already received
+
+node 8 already received
+
+USE node 13 :   13 TIME:    8 (FROM:    9)  LINKS:     1   18
+
+node 1 already received
+
+node 18 already received
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+node 8 already received
+
+node 2 already received
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+
+node 2 already received
+
+node 0 already received
+
+node 10 already received
+
+node 16 already received
+
+node 15 already received
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 15 already received
+
+node 8 already received
+
+node 9 already received
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+node 6 already received
+
+node 3 already received
+
+node 2 already received
+
+USE node 9 :    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+node 16 already received
+
+node 6 already received
+
+node 19 already received
+
+node 17 already received
+
+node 0 already received
+
+node 13 already received
+
+TIME 13
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME:    8 (FROM:    9)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+node 7 already received
+
+node 11 already received
+
+node 8 already received
+
+USE node 13 :   13 TIME:    8 (FROM:    9)  LINKS:     1   18
+
+node 1 already received
+
+node 18 already received
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+node 8 already received
+
+node 2 already received
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+
+node 2 already received
+
+node 0 already received
+
+node 10 already received
+
+node 16 already received
+
+node 15 already received
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 15 already received
+
+node 8 already received
+
+node 9 already received
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+node 6 already received
+
+node 3 already received
+
+node 2 already received
+
+USE node 9 :    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+node 16 already received
+
+node 6 already received
+
+node 19 already received
+
+node 17 already received
+
+node 0 already received
+
+node 13 already received
+
+TIME 14
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME:    8 (FROM:    9)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+node 7 already received
+
+node 11 already received
+
+node 8 already received
+
+USE node 13 :   13 TIME:    8 (FROM:    9)  LINKS:     1   18
+
+node 1 already received
+
+node 18 already received
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+node 8 already received
+
+node 2 already received
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+
+node 2 already received
+
+node 0 already received
+
+node 10 already received
+
+node 16 already received
+
+node 15 already received
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 15 already received
+
+node 8 already received
+
+node 9 already received
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+node 6 already received
+
+node 3 already received
+
+node 2 already received
+
+USE node 9 :    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+node 16 already received
+
+node 6 already received
+
+node 19 already received
+
+node 17 already received
+
+node 0 already received
+
+node 13 already received
+
+TIME 15
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME:    8 (FROM:    9)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+node 7 already received
+
+node 11 already received
+
+node 8 already received
+
+USE node 13 :   13 TIME:    8 (FROM:    9)  LINKS:     1   18
+
+node 1 already received
+
+node 18 already received
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+node 8 already received
+
+node 2 already received
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+
+node 2 already received
+
+node 0 already received
+
+node 10 already received
+
+node 16 already received
+
+node 15 already received
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 15 already received
+
+node 8 already received
+
+node 9 already received
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+node 6 already received
+
+node 3 already received
+
+node 2 already received
+
+USE node 9 :    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+node 16 already received
+
+node 6 already received
+
+node 19 already received
+
+node 17 already received
+
+node 0 already received
+
+node 13 already received
+
+TIME 16
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME:    8 (FROM:    9)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+node 7 already received
+
+node 11 already received
+
+node 8 already received
+
+USE node 13 :   13 TIME:    8 (FROM:    9)  LINKS:     1   18
+
+node 1 already received
+
+node 18 already received
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+node 8 already received
+
+node 2 already received
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+
+node 2 already received
+
+node 0 already received
+
+node 10 already received
+
+node 16 already received
+
+node 15 already received
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 15 already received
+
+node 8 already received
+
+node 9 already received
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+node 6 already received
+
+node 3 already received
+
+node 2 already received
+
+USE node 9 :    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+node 16 already received
+
+node 6 already received
+
+node 19 already received
+
+node 17 already received
+
+node 0 already received
+
+node 13 already received
+
+TIME 17
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME:    8 (FROM:    9)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+node 7 already received
+
+node 11 already received
+
+node 8 already received
+
+USE node 13 :   13 TIME:    8 (FROM:    9)  LINKS:     1   18
+
+node 1 already received
+
+node 18 already received
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+node 8 already received
+
+node 2 already received
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+
+node 2 already received
+
+node 0 already received
+
+node 10 already received
+
+node 16 already received
+
+node 15 already received
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 15 already received
+
+node 8 already received
+
+node 9 already received
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+node 6 already received
+
+node 3 already received
+
+node 2 already received
+
+USE node 9 :    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+node 16 already received
+
+node 6 already received
+
+node 19 already received
+
+node 17 already received
+
+node 0 already received
+
+node 13 already received
+
+TIME 18
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME:    8 (FROM:    9)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+node 7 already received
+
+node 11 already received
+
+node 8 already received
+
+USE node 13 :   13 TIME:    8 (FROM:    9)  LINKS:     1   18
+
+node 1 already received
+
+node 18 already received
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+node 8 already received
+
+node 2 already received
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+
+node 2 already received
+
+node 0 already received
+
+node 10 already received
+
+node 16 already received
+
+node 15 already received
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 15 already received
+
+node 8 already received
+
+node 9 already received
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+node 6 already received
+
+node 3 already received
+
+node 2 already received
+
+USE node 9 :    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+node 16 already received
+
+node 6 already received
+
+node 19 already received
+
+node 17 already received
+
+node 0 already received
+
+node 13 already received
+
+TIME 19
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME:    8 (FROM:    9)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+node 7 already received
+
+node 11 already received
+
+node 8 already received
+
+USE node 13 :   13 TIME:    8 (FROM:    9)  LINKS:     1   18
+
+node 1 already received
+
+node 18 already received
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+node 8 already received
+
+node 2 already received
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+
+node 2 already received
+
+node 0 already received
+
+node 10 already received
+
+node 16 already received
+
+node 15 already received
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 15 already received
+
+node 8 already received
+
+node 9 already received
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+node 6 already received
+
+node 3 already received
+
+node 2 already received
+
+USE node 9 :    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+node 16 already received
+
+node 6 already received
+
+node 19 already received
+
+node 17 already received
+
+node 0 already received
+
+node 13 already received
+
+TIME 20
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME:    8 (FROM:    9)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+node 7 already received
+
+node 11 already received
+
+node 8 already received
+
+USE node 13 :   13 TIME:    8 (FROM:    9)  LINKS:     1   18
+
+node 1 already received
+
+node 18 already received
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+node 8 already received
+
+node 2 already received
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+
+node 2 already received
+
+node 0 already received
+
+node 10 already received
+
+node 16 already received
+
+node 15 already received
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 15 already received
+
+node 8 already received
+
+node 9 already received
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+node 6 already received
+
+node 3 already received
+
+node 2 already received
+
+USE node 9 :    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+node 16 already received
+
+node 6 already received
+
+node 19 already received
+
+node 17 already received
+
+node 0 already received
+
+node 13 already received
+
+TIME 21
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME:    8 (FROM:    9)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+node 7 already received
+
+node 11 already received
+
+node 8 already received
+
+USE node 13 :   13 TIME:    8 (FROM:    9)  LINKS:     1   18
+
+node 1 already received
+
+node 18 already received
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+node 8 already received
+
+node 2 already received
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+
+node 2 already received
+
+node 0 already received
+
+node 10 already received
+
+node 16 already received
+
+node 15 already received
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 15 already received
+
+node 8 already received
+
+node 9 already received
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+node 6 already received
+
+node 3 already received
+
+node 2 already received
+
+USE node 9 :    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+node 16 already received
+
+node 6 already received
+
+node 19 already received
+
+node 17 already received
+
+node 0 already received
+
+node 13 already received
+
+TIME 22
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME:    8 (FROM:    9)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+node 7 already received
+
+node 11 already received
+
+node 8 already received
+
+USE node 13 :   13 TIME:    8 (FROM:    9)  LINKS:     1   18
+
+node 1 already received
+
+node 18 already received
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+node 8 already received
+
+node 2 already received
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+
+node 2 already received
+
+node 0 already received
+
+node 10 already received
+
+node 16 already received
+
+node 15 already received
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 15 already received
+
+node 8 already received
+
+node 9 already received
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+node 6 already received
+
+node 3 already received
+
+node 2 already received
+
+USE node 9 :    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+node 16 already received
+
+node 6 already received
+
+node 19 already received
+
+node 17 already received
+
+node 0 already received
+
+node 13 already received
+
+TIME 23
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME:    8 (FROM:    9)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+node 7 already received
+
+node 11 already received
+
+node 8 already received
+
+USE node 13 :   13 TIME:    8 (FROM:    9)  LINKS:     1   18
+
+node 1 already received
+
+node 18 already received
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+node 8 already received
+
+node 2 already received
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+
+node 2 already received
+
+node 0 already received
+
+node 10 already received
+
+node 16 already received
+
+node 15 already received
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 15 already received
+
+node 8 already received
+
+node 9 already received
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+node 6 already received
+
+node 3 already received
+
+node 2 already received
+
+USE node 9 :    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+node 16 already received
+
+node 6 already received
+
+node 19 already received
+
+node 17 already received
+
+node 0 already received
+
+node 13 already received
+
+TIME 24
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME:    8 (FROM:    9)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+node 7 already received
+
+node 11 already received
+
+node 8 already received
+
+USE node 13 :   13 TIME:    8 (FROM:    9)  LINKS:     1   18
+
+node 1 already received
+
+node 18 already received
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+node 8 already received
+
+node 2 already received
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+
+node 2 already received
+
+node 0 already received
+
+node 10 already received
+
+node 16 already received
+
+node 15 already received
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 15 already received
+
+node 8 already received
+
+node 9 already received
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+node 6 already received
+
+node 3 already received
+
+node 2 already received
+
+USE node 9 :    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+node 16 already received
+
+node 6 already received
+
+node 19 already received
+
+node 17 already received
+
+node 0 already received
+
+node 13 already received
+
+TIME 25
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME:    8 (FROM:    9)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+node 7 already received
+
+node 11 already received
+
+node 8 already received
+
+USE node 13 :   13 TIME:    8 (FROM:    9)  LINKS:     1   18
+
+node 1 already received
+
+node 18 already received
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+node 8 already received
+
+node 2 already received
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+
+node 2 already received
+
+node 0 already received
+
+node 10 already received
+
+node 16 already received
+
+node 15 already received
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 15 already received
+
+node 8 already received
+
+node 9 already received
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+node 6 already received
+
+node 3 already received
+
+node 2 already received
+
+USE node 9 :    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+node 16 already received
+
+node 6 already received
+
+node 19 already received
+
+node 17 already received
+
+node 0 already received
+
+node 13 already received
+
+TIME 26
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME:    8 (FROM:    9)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+node 7 already received
+
+node 11 already received
+
+node 8 already received
+
+USE node 13 :   13 TIME:    8 (FROM:    9)  LINKS:     1   18
+
+node 1 already received
+
+node 18 already received
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+node 8 already received
+
+node 2 already received
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+
+node 2 already received
+
+node 0 already received
+
+node 10 already received
+
+node 16 already received
+
+node 15 already received
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 15 already received
+
+node 8 already received
+
+node 9 already received
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+node 6 already received
+
+node 3 already received
+
+node 2 already received
+
+USE node 9 :    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+node 16 already received
+
+node 6 already received
+
+node 19 already received
+
+node 17 already received
+
+node 0 already received
+
+node 13 already received
+
+TIME 27
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME:    8 (FROM:    9)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+node 7 already received
+
+node 11 already received
+
+node 8 already received
+
+USE node 13 :   13 TIME:    8 (FROM:    9)  LINKS:     1   18
+
+node 1 already received
+
+node 18 already received
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+node 8 already received
+
+node 2 already received
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+
+node 2 already received
+
+node 0 already received
+
+node 10 already received
+
+node 16 already received
+
+node 15 already received
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 15 already received
+
+node 8 already received
+
+node 9 already received
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+node 6 already received
+
+node 3 already received
+
+node 2 already received
+
+USE node 9 :    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+node 16 already received
+
+node 6 already received
+
+node 19 already received
+
+node 17 already received
+
+node 0 already received
+
+node 13 already received
+
+TIME 28
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME:    8 (FROM:    9)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+node 7 already received
+
+node 11 already received
+
+node 8 already received
+
+USE node 13 :   13 TIME:    8 (FROM:    9)  LINKS:     1   18
+
+node 1 already received
+
+node 18 already received
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+node 8 already received
+
+node 2 already received
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+
+node 2 already received
+
+node 0 already received
+
+node 10 already received
+
+node 16 already received
+
+node 15 already received
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 15 already received
+
+node 8 already received
+
+node 9 already received
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+node 6 already received
+
+node 3 already received
+
+node 2 already received
+
+USE node 9 :    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+node 16 already received
+
+node 6 already received
+
+node 19 already received
+
+node 17 already received
+
+node 0 already received
+
+node 13 already received
+
+TIME 29
+IN LOOP
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME:    8 (FROM:    9)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+USE node 0 :    0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+
+node 5 already received
+
+node 16 already received
+
+USE node 1 :    1 TIME:    5 (FROM:   12)  LINKS:    16    2
+
+node 16 already received
+
+node 2 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+
+node 11 already received
+
+node 3 already received
+
+node 14 already received
+
+node 15 already received
+
+USE node 11 :   11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+
+node 15 already received
+
+node 14 already received
+
+node 16 already received
+
+USE node 12 :   12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+
+node 1 already received
+
+node 7 already received
+
+node 11 already received
+
+node 8 already received
+
+USE node 13 :   13 TIME:    8 (FROM:    9)  LINKS:     1   18
+
+node 1 already received
+
+node 18 already received
+
+USE node 14 :   14 TIME:    5 (FROM:   18)  LINKS:    15    1
+
+node 15 already received
+
+node 1 already received
+
+USE node 15 :   15 TIME:    5 (FROM:   11)  LINKS:    18    2
+
+node 18 already received
+
+node 2 already received
+
+USE node 16 :   16 TIME:    1 (FROM:    0)  LINKS:    18    3
+
+node 18 already received
+
+node 3 already received
+
+USE node 17 :   17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+
+node 0 already received
+
+node 12 already received
+
+node 2 already received
+
+USE node 18 :   18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+
+node 10 already received
+
+node 17 already received
+
+node 11 already received
+
+node 14 already received
+
+node 19 already received
+
+USE node 19 :   19 TIME:    2 (FROM:    5)  LINKS:     3   19
+
+node 3 already received
+
+node 19 already received
+
+USE node 2 :    2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+
+node 12 already received
+
+node 8 already received
+
+node 2 already received
+
+USE node 3 :    3 TIME:    2 (FROM:    4)  LINKS:    17
+
+node 17 already received
+
+USE node 4 :    4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+
+node 0 already received
+
+node 3 already received
+
+node 19 already received
+
+USE node 5 :    5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+
+node 4 already received
+
+node 19 already received
+
+node 3 already received
+
+USE node 6 :    6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+
+node 2 already received
+
+node 0 already received
+
+node 10 already received
+
+node 16 already received
+
+node 15 already received
+
+USE node 7 :    7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+
+node 15 already received
+
+node 8 already received
+
+node 9 already received
+
+USE node 8 :    8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+
+node 6 already received
+
+node 3 already received
+
+node 2 already received
+
+USE node 9 :    9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+node 16 already received
+
+node 6 already received
+
+node 19 already received
+
+node 17 already received
+
+node 0 already received
+
+node 13 already received
+
+leave RunSimulation
+AFTER SIM 
+NODECOUNT:    0
+   0 TIME:   -1 (FROM:    0)  LINKS:     5   16
+   1 TIME:    5 (FROM:   12)  LINKS:    16    2
+  10 TIME:    3 (FROM:   18)  LINKS:    11    3   14   15
+  11 TIME:    4 (FROM:   18)  LINKS:    15   14   16
+  12 TIME:    4 (FROM:   17)  LINKS:     1    7   11    8
+  13 TIME:    8 (FROM:    9)  LINKS:     1   18
+  14 TIME:    5 (FROM:   18)  LINKS:    15    1
+  15 TIME:    5 (FROM:   11)  LINKS:    18    2
+  16 TIME:    1 (FROM:    0)  LINKS:    18    3
+  17 TIME:    3 (FROM:    3)  LINKS:     0   12    2
+  18 TIME:    2 (FROM:   16)  LINKS:    10   17   11   14   19
+  19 TIME:    2 (FROM:    5)  LINKS:     3   19
+   2 TIME:    5 (FROM:   17)  LINKS:    12    8    2
+   3 TIME:    2 (FROM:    4)  LINKS:    17
+   4 TIME:    1 (FROM:    5)  LINKS:     0    3   19
+   5 TIME:    0 (FROM:    0)  LINKS:     4   19    3
+   6 TIME:    7 (FROM:    8)  LINKS:     2    0   10   16   15
+   7 TIME:    6 (FROM:   12)  LINKS:    15    8    9
+   8 TIME:    6 (FROM:    2)  LINKS:     6    3    2
+   9 TIME:    7 (FROM:    7)  LINKS:    16    6   19   17    0   13
+
+Main: Ending execution
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Sat Nov  5 09:15:02 2016
+TIME ending                0.01 u         0.01 s   Res:      913408
+TIME ending                0.01 u_t       0.01 s_t
+TIME***********************************************************************
+
+
+

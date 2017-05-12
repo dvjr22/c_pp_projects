@@ -1,0 +1,17 @@
+#!/bin/bash
+echo "Descend into 'testdirectory' directory"
+cd testdirectory
+#
+for item in *
+do
+  echo " "
+  echo "EXECUTING" $item
+  cd $item
+  Aprog ../../textfile.txt ../../patternfile.txt | grep MATCH >zoutmatches
+  Aprog ../../textfile.txt ../../patternfile.txt | grep COMP >zoutcomps
+  cd ..
+echo "EXECUTION COMPLETE"
+done
+echo "Return from 'testdirectory' directory"
+cd ..
+echo " "

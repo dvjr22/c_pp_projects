@@ -1,0 +1,149 @@
+MAIN: Beginning execution
+MAIN: datafile  'zin3.txt'
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Thu Sep  8 14:50:41 2016
+TIME beginning             0.00 u         0.00 s   Res:        2088
+TIME beginning             0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
+
+UTILS: open the input file 'zin3.txt'
+UTILS: open succeeded for 'zin3.txt'
+start the computation
+create 10000000 records
+done with creation of 10000000 records
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Thu Sep  8 14:50:41 2016
+TIME done creation         0.57 u         0.02 s   Res:      201272
+TIME done creation         0.57 u_t       0.02 s_t
+TIME***********************************************************************
+
+
+
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Thu Sep  8 14:50:41 2016
+TIME before gcdtest        0.00 u         0.00 s   Res:      201272
+TIME before gcdtest        0.57 u_t       0.02 s_t
+TIME***********************************************************************
+
+
+
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Thu Sep  8 14:50:41 2016
+TIME bef naive false       0.00 u         0.00 s   Res:      201272
+TIME bef naive false       0.57 u_t       0.02 s_t
+TIME***********************************************************************
+
+
+
+Number of naive divisions 181743316
+
+TIME***********************************************************************
+TIME CPU percent   86.40 100.00                    Thu Sep  8 14:50:43 2016
+TIME aft naive false       1.73 u         0.00 s   Res:      201272
+TIME aft naive false       2.30 u_t       0.02 s_t
+TIME***********************************************************************
+
+
+
+
+TIME***********************************************************************
+TIME CPU percent    0.00 100.00                    Thu Sep  8 14:50:43 2016
+TIME bef subtract false       0.00 u         0.00 s   Res:      201272
+TIME bef subtract false       2.30 u_t       0.02 s_t
+TIME***********************************************************************
+
+
+
+Number of subtractions and divisions 54123849 172618478
+
+TIME***********************************************************************
+TIME CPU percent   87.40 100.00                    Thu Sep  8 14:50:45 2016
+TIME aft subtract false       1.75 u         0.00 s   Res:      201272
+TIME aft subtract false       4.05 u_t       0.02 s_t
+TIME***********************************************************************
+
+
+
+
+TIME***********************************************************************
+TIME CPU percent    0.00 100.00                    Thu Sep  8 14:50:45 2016
+TIME bef naive true        0.00 u         0.00 s   Res:      201272
+TIME bef naive true        4.05 u_t       0.02 s_t
+TIME***********************************************************************
+
+
+
+Number of naive divisions 181743316
+
+TIME***********************************************************************
+TIME CPU percent  100.00 100.00                    Thu Sep  8 14:50:46 2016
+TIME aft naive true        1.73 u         0.00 s   Res:      201272
+TIME aft naive true        5.78 u_t       0.02 s_t
+TIME***********************************************************************
+
+
+
+
+TIME***********************************************************************
+TIME CPU percent    0.00 100.00                    Thu Sep  8 14:50:46 2016
+TIME bef subtract true       0.00 u         0.00 s   Res:      201272
+TIME bef subtract true       5.78 u_t       0.02 s_t
+TIME***********************************************************************
+
+
+
+Number of subtractions and divisions 54123849 172618478
+
+TIME***********************************************************************
+TIME CPU percent   87.60 100.00                    Thu Sep  8 14:50:48 2016
+TIME aft subtract true       1.75 u         0.00 s   Res:      201272
+TIME aft subtract true       7.53 u_t       0.02 s_t
+TIME***********************************************************************
+
+
+
+
+TIME***********************************************************************
+TIME CPU percent    0.00 100.00                    Thu Sep  8 14:50:48 2016
+TIME bef n-sub false       0.00 u         0.00 s   Res:      201272
+TIME bef n-sub false       7.53 u_t       0.02 s_t
+TIME***********************************************************************
+
+
+
+Test naive against subtract shows no discrepancies
+
+TIME***********************************************************************
+TIME CPU percent   86.20  99.96                    Thu Sep  8 14:50:52 2016
+TIME aft n-sub false       3.45 u         0.00 s   Res:      201272
+TIME aft n-sub false      10.98 u_t       0.02 s_t
+TIME***********************************************************************
+
+
+
+done with the computation
+
+TIME***********************************************************************
+TIME CPU percent    0.00  99.96                    Thu Sep  8 14:50:52 2016
+TIME after gcdtest         0.00 u         0.00 s   Res:      201272
+TIME after gcdtest        10.98 u_t       0.02 s_t
+TIME***********************************************************************
+
+
+
+MAIN: Ending execution
+
+TIME***********************************************************************
+TIME CPU percent    0.00  99.96                    Thu Sep  8 14:50:52 2016
+TIME ending                0.00 u         0.00 s   Res:      201272
+TIME ending               10.98 u_t       0.02 s_t
+TIME***********************************************************************
+
+
+

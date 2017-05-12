@@ -1,0 +1,5206 @@
+Main: Beginning execution
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Sat Nov  5 09:14:47 2016
+TIME beginning             0.00 u         0.00 s   Res:      802816
+TIME beginning             0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
+
+start the computation
+UTILS: open the input file 'xtoroid.txt'
+UTILS: open succeeded for 'xtoroid.txt'
+enter ReadNetwork
+leave ReadNetwork
+BEFORE SIM
+NODECOUNT:    0
+  00 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    03   01   30   10
+  01 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    00   02   31   11
+  02 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    01   03   32   12
+  03 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    02   00   33   13
+  10 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    13   11   00   20
+  11 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    10   12   01   21
+  12 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    11   13   02   22
+  13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    12   10   03   23
+  20 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    23   21   10   30
+  21 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    20   22   11   31
+  22 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    21   23   12   32
+  23 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    22   20   13   33
+  30 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    33   31   20   00
+  31 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    30   32   21   01
+  32 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    31   33   22   02
+  33 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    32   30   23   03
+
+enter RunSimulation
+NODESETATTIME 00 -1 FROM 00
+node   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+got message at time 0
+BEFORE LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    00   02   31   11
+  02 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    01   03   32   12
+  03 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    02   00   33   13
+  10 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    13   11   00   20
+  11 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    10   12   01   21
+  12 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    11   13   02   22
+  13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    12   10   03   23
+  20 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    23   21   10   30
+  21 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    20   22   11   31
+  22 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    21   23   12   32
+  23 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    22   20   13   33
+  30 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    33   31   20   00
+  31 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    30   32   21   01
+  32 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    31   33   22   02
+  33 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    32   30   23   03
+
+TIME 0
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    00   02   31   11
+  02 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    01   03   32   12
+  03 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    02   00   33   13
+  10 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    13   11   00   20
+  11 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    10   12   01   21
+  12 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    11   13   02   22
+  13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    12   10   03   23
+  20 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    23   21   10   30
+  21 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    20   22   11   31
+  22 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    21   23   12   32
+  23 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    22   20   13   33
+  30 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    33   31   20   00
+  31 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    30   32   21   01
+  32 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    31   33   22   02
+  33 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+send from node   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+NODESETATTIME 03 0 FROM 00
+node   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+got message at time 0
+
+USE node 01 :   01 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    00   02   31   11
+
+node 01 not yet ready to send
+
+USE node 02 :   02 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    01   03   32   12
+
+node 02 not yet ready to send
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 03 not yet ready to send
+
+USE node 10 :   10 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    13   11   00   20
+
+node 10 not yet ready to send
+
+USE node 11 :   11 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    10   12   01   21
+
+node 11 not yet ready to send
+
+USE node 12 :   12 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    11   13   02   22
+
+node 12 not yet ready to send
+
+USE node 13 :   13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    12   10   03   23
+
+node 13 not yet ready to send
+
+USE node 20 :   20 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    23   21   10   30
+
+node 20 not yet ready to send
+
+USE node 21 :   21 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    20   22   11   31
+
+node 21 not yet ready to send
+
+USE node 22 :   22 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    21   23   12   32
+
+node 22 not yet ready to send
+
+USE node 23 :   23 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    22   20   13   33
+
+node 23 not yet ready to send
+
+USE node 30 :   30 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    33   31   20   00
+
+node 30 not yet ready to send
+
+USE node 31 :   31 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    30   32   21   01
+
+node 31 not yet ready to send
+
+USE node 32 :   32 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    31   33   22   02
+
+node 32 not yet ready to send
+
+USE node 33 :   33 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    32   30   23   03
+
+node 33 not yet ready to send
+
+TIME 1
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    00   02   31   11
+  02 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    13   11   00   20
+  11 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    10   12   01   21
+  12 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    11   13   02   22
+  13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    12   10   03   23
+  20 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    23   21   10   30
+  21 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    20   22   11   31
+  22 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    21   23   12   32
+  23 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    22   20   13   33
+  30 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    33   31   20   00
+  31 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    30   32   21   01
+  32 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    31   33   22   02
+  33 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+send from node   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+NODESETATTIME 01 1 FROM 00
+node   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+got message at time 1
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 01 not yet ready to send
+
+USE node 02 :   02 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    01   03   32   12
+
+node 02 not yet ready to send
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+send from node   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+NODESETATTIME 02 1 FROM 03
+node   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+got message at time 1
+
+USE node 10 :   10 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    13   11   00   20
+
+node 10 not yet ready to send
+
+USE node 11 :   11 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    10   12   01   21
+
+node 11 not yet ready to send
+
+USE node 12 :   12 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    11   13   02   22
+
+node 12 not yet ready to send
+
+USE node 13 :   13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    12   10   03   23
+
+node 13 not yet ready to send
+
+USE node 20 :   20 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    23   21   10   30
+
+node 20 not yet ready to send
+
+USE node 21 :   21 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    20   22   11   31
+
+node 21 not yet ready to send
+
+USE node 22 :   22 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    21   23   12   32
+
+node 22 not yet ready to send
+
+USE node 23 :   23 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    22   20   13   33
+
+node 23 not yet ready to send
+
+USE node 30 :   30 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    33   31   20   00
+
+node 30 not yet ready to send
+
+USE node 31 :   31 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    30   32   21   01
+
+node 31 not yet ready to send
+
+USE node 32 :   32 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    31   33   22   02
+
+node 32 not yet ready to send
+
+USE node 33 :   33 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    32   30   23   03
+
+node 33 not yet ready to send
+
+TIME 2
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    13   11   00   20
+  11 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    10   12   01   21
+  12 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    11   13   02   22
+  13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    12   10   03   23
+  20 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    23   21   10   30
+  21 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    20   22   11   31
+  22 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    21   23   12   32
+  23 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    22   20   13   33
+  30 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    33   31   20   00
+  31 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    30   32   21   01
+  32 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    31   33   22   02
+  33 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+send from node   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+NODESETATTIME 30 2 FROM 00
+node   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+got message at time 2
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+send from node   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+NODESETATTIME 31 2 FROM 01
+node   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+got message at time 2
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+send from node   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+NODESETATTIME 32 2 FROM 02
+node   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+got message at time 2
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+send from node   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+NODESETATTIME 33 2 FROM 03
+node   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+got message at time 2
+
+USE node 10 :   10 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    13   11   00   20
+
+node 10 not yet ready to send
+
+USE node 11 :   11 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    10   12   01   21
+
+node 11 not yet ready to send
+
+USE node 12 :   12 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    11   13   02   22
+
+node 12 not yet ready to send
+
+USE node 13 :   13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    12   10   03   23
+
+node 13 not yet ready to send
+
+USE node 20 :   20 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    23   21   10   30
+
+node 20 not yet ready to send
+
+USE node 21 :   21 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    20   22   11   31
+
+node 21 not yet ready to send
+
+USE node 22 :   22 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    21   23   12   32
+
+node 22 not yet ready to send
+
+USE node 23 :   23 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    22   20   13   33
+
+node 23 not yet ready to send
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 30 not yet ready to send
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 31 not yet ready to send
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 32 not yet ready to send
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 33 not yet ready to send
+
+TIME 3
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    13   11   00   20
+  11 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    10   12   01   21
+  12 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    11   13   02   22
+  13 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    12   10   03   23
+  20 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    23   21   10   30
+  21 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    20   22   11   31
+  22 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    21   23   12   32
+  23 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+send from node   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+NODESETATTIME 10 3 FROM 00
+node   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+got message at time 3
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+send from node   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+NODESETATTIME 11 3 FROM 01
+node   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+got message at time 3
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+send from node   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+NODESETATTIME 12 3 FROM 02
+node   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+got message at time 3
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+send from node   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+NODESETATTIME 13 3 FROM 03
+node   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+got message at time 3
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 10 not yet ready to send
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 11 not yet ready to send
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 12 not yet ready to send
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 13 not yet ready to send
+
+USE node 20 :   20 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    23   21   10   30
+
+node 20 not yet ready to send
+
+USE node 21 :   21 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    20   22   11   31
+
+node 21 not yet ready to send
+
+USE node 22 :   22 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    21   23   12   32
+
+node 22 not yet ready to send
+
+USE node 23 :   23 TIME: 999999999 (FROM: DUMMYLABEL)  LINKS:    22   20   13   33
+
+node 23 not yet ready to send
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+send from node   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+NODESETATTIME 20 3 FROM 30
+node   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+got message at time 3
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+send from node   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+NODESETATTIME 21 3 FROM 31
+node   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+got message at time 3
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+send from node   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+NODESETATTIME 22 3 FROM 32
+node   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+got message at time 3
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+send from node   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+NODESETATTIME 23 3 FROM 33
+node   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+got message at time 3
+
+TIME 4
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 5
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 6
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 7
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 8
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 9
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 10
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 11
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 12
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 13
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 14
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 15
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 16
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 17
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 18
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 19
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 20
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 21
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 22
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 23
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 24
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 25
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 26
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 27
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 28
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+TIME 29
+IN LOOP
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+USE node 00 :   00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+
+node 03 already received
+
+node 01 already received
+
+node 30 already received
+
+node 10 already received
+
+USE node 01 :   01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+
+node 00 already received
+
+node 02 already received
+
+node 31 already received
+
+node 11 already received
+
+USE node 02 :   02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+
+node 01 already received
+
+node 03 already received
+
+node 32 already received
+
+node 12 already received
+
+USE node 03 :   03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+
+node 02 already received
+
+node 00 already received
+
+node 33 already received
+
+node 13 already received
+
+USE node 10 :   10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+
+node 13 already received
+
+node 11 already received
+
+node 00 already received
+
+node 20 already received
+
+USE node 11 :   11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+
+node 10 already received
+
+node 12 already received
+
+node 01 already received
+
+node 21 already received
+
+USE node 12 :   12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+
+node 11 already received
+
+node 13 already received
+
+node 02 already received
+
+node 22 already received
+
+USE node 13 :   13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+
+node 12 already received
+
+node 10 already received
+
+node 03 already received
+
+node 23 already received
+
+USE node 20 :   20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+
+node 23 already received
+
+node 21 already received
+
+node 10 already received
+
+node 30 already received
+
+USE node 21 :   21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+
+node 20 already received
+
+node 22 already received
+
+node 11 already received
+
+node 31 already received
+
+USE node 22 :   22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+
+node 21 already received
+
+node 23 already received
+
+node 12 already received
+
+node 32 already received
+
+USE node 23 :   23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+
+node 22 already received
+
+node 20 already received
+
+node 13 already received
+
+node 33 already received
+
+USE node 30 :   30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+
+node 33 already received
+
+node 31 already received
+
+node 20 already received
+
+node 00 already received
+
+USE node 31 :   31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+
+node 30 already received
+
+node 32 already received
+
+node 21 already received
+
+node 01 already received
+
+USE node 32 :   32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+
+node 31 already received
+
+node 33 already received
+
+node 22 already received
+
+node 02 already received
+
+USE node 33 :   33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+node 32 already received
+
+node 30 already received
+
+node 23 already received
+
+node 03 already received
+
+leave RunSimulation
+AFTER SIM 
+NODECOUNT:    0
+  00 TIME:   -1 (FROM:   00)  LINKS:    03   01   30   10
+  01 TIME:    1 (FROM:   00)  LINKS:    00   02   31   11
+  02 TIME:    1 (FROM:   03)  LINKS:    01   03   32   12
+  03 TIME:    0 (FROM:   00)  LINKS:    02   00   33   13
+  10 TIME:    3 (FROM:   00)  LINKS:    13   11   00   20
+  11 TIME:    3 (FROM:   01)  LINKS:    10   12   01   21
+  12 TIME:    3 (FROM:   02)  LINKS:    11   13   02   22
+  13 TIME:    3 (FROM:   03)  LINKS:    12   10   03   23
+  20 TIME:    3 (FROM:   30)  LINKS:    23   21   10   30
+  21 TIME:    3 (FROM:   31)  LINKS:    20   22   11   31
+  22 TIME:    3 (FROM:   32)  LINKS:    21   23   12   32
+  23 TIME:    3 (FROM:   33)  LINKS:    22   20   13   33
+  30 TIME:    2 (FROM:   00)  LINKS:    33   31   20   00
+  31 TIME:    2 (FROM:   01)  LINKS:    30   32   21   01
+  32 TIME:    2 (FROM:   02)  LINKS:    31   33   22   02
+  33 TIME:    2 (FROM:   03)  LINKS:    32   30   23   03
+
+Main: Ending execution
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Sat Nov  5 09:14:47 2016
+TIME ending                0.01 u         0.01 s   Res:      909312
+TIME ending                0.01 u_t       0.01 s_t
+TIME***********************************************************************
+
+
+

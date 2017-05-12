@@ -1,0 +1,7 @@
+g++ -O3 -Wall -std=c++11 -c main.cc
+g++ -O3 -Wall -std=c++11 -c smatch.cc
+g++ -O3 -Wall -std=c++11 -c myrandom.cc
+g++ -O3 -Wall -std=c++11 -c ../../Utilities/scanner.cc
+g++ -O3 -Wall -std=c++11 -c ../../Utilities/scanline.cc
+g++ -O3 -Wall -std=c++11 -c ../../Utilities/utils.cc
+g++ -O3 -Wall -std=c++11 -o Aprog main.o smatch.o myrandom.o scanner.o scanline.o utils.o
